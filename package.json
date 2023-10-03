@@ -1,0 +1,18 @@
+{
+  "name": "playwright-bdd-pom",
+  "version": "1.0.0",
+  "description": "This repository contains a test automation project that uses the Playwright framework for browser automation, Cucumber for Behavior-Driven Development (BDD) testing, and follows the Page Object Model (POM) architecture. The project is designed to automate web application testing and facilitate collaboration between testers and developers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --require ./src/steps/*.js --tags @web"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.5.1",
+    "@playwright/test": "^1.38.1",
+    "playwright": "^1.38.1",
+    "dotenv": "^16.3.1"
+  }
+}
